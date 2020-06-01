@@ -1,0 +1,100 @@
+header{
+     text-align: center;
+     font-size: 25px;
+     padding:20px;
+     color: #262626;
+}
+
+body{
+     background-color: #5588a3;
+}
+
+#content-table{
+     width: 90%;
+}
+
+table, th, td {
+     border: 1px solid black;
+     color:#E8E8E8;
+}
+
+#heading{
+     background-color: #145374;
+     text-align: center;
+     font-size: 15px;
+     color: black;
+     font-weight: bold;
+}
+
+#list{
+     background-color: #2F79B5;
+     text-align: center;
+     font-size: 15px;
+     color: black;
+     font-weight: bold;
+}
+
+#tr{
+     padding: 5px 5px;
+     border: 5px;
+}
+
+#address{
+     background-color: #919394;
+     /*color:white;*/
+}
+
+#form{
+     text-align: center;
+     color: black;
+}
+
+nav ul{
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #00334e;
+}
+
+nav li{
+     float: left;
+     display: block;
+     color: #F2EAD2;
+     text-align: center;
+     padding: 14px 16px;
+     cursor:pointer;
+     font-size:18px;
+}
+
+a{
+     background-color: inherit;
+     color: #F2EAD2;
+     text-decoration: none;
+}
+
+nav a:hover{
+     background-color: #c44100;
+     transition:0.5s;
+     text-decoration: none;
+}
+
+nav ul li .active{
+     background:blue;
+     color:#fff;
+     border-radius:6px;
+     text-decoration: none;
+}
+
+#start{ 
+     background-image: url("computer.jpg");
+     width: 100vw;
+     height: 100vh; 
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     position: relative;
+}
+
+#submit{
+     background-color: #ECEDED;
+}

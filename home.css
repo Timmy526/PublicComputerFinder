@@ -1,0 +1,61 @@
+header{
+     text-align: center;
+     font-size: 25px;
+     color: #F2EAD2;
+}
+
+#start{ 
+     background-image: url("computer.jpg");
+     width: 100vw;
+     height: 94vh; 
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     position: relative;
+}
+
+#submit{
+     background-color: #ECEDED;
+}
+
+#form{
+     text-align: center;
+     color: black;
+}
+
+nav ul{
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #00334e;
+}
+
+nav li{
+     float: left;
+     display: block;
+     color: #F2EAD2;
+     text-align: center;
+     padding: 14px 16px;
+     cursor:pointer;
+     font-size:18px;
+}
+
+a{
+     background-color: inherit;
+     color: #F2EAD2;
+     text-decoration: none;
+}
+
+nav a:hover{
+     background-color: #c44100;
+     transition:0.5s;
+     text-decoration: none;
+}
+
+nav ul li .active{
+     background:blue;
+     color:#fff;
+     border-radius:6px;
+     text-decoration: none;
+}
+

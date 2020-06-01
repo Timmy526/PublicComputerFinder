@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Searched Computers</title>
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="table.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">    
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Signika" rel="stylesheet">
+        
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Public Computer Finder</li>
+            <li class="link"><a href="https://preview.c9users.io/ttu8461/final-project/home.html?_c9_id=livepreview0&_c9_host=https://ide.c9.io">Home</a></li>
+            <li class="link"><a href="https://preview.c9users.io/ttu8461/final-project/table.html?_c9_id=livepreview2&_c9_host=https://ide.c9.io">Table</a></li>
+        </ul>
+    </nav>  
+    <header class="container">
+        <h2>Computer Centers</h2>
+        <h3>Please Type In Your Address</h3>
+    </header>
+    <center>
+        <form id="myForm" target="_blank" method="post">
+            <input type="text" name="address" id="form" placeholder="Full Address">
+            <input type="submit" id="submit" onclick="submission()" value="Search">
+        </form> 
+        <br>
+    </center>
+    <center>
+        <table id="content-table">
+            <thead id="heading">
+                <tr>
+                    <th class="name">Name</th>
+                    <th class="address">Address</th>
+                    <th class="phone">Phone Number</th>
+                    <th class="distance">Distance
+                        <a href="javascript:sort(true, 'distance', 'content-table');"><i class="fas fa-chevron-up"></i></a> 
+                        <a href="javascript:sort(false, 'distance', 'content-table');"><i class="fas fa-chevron-down"></i></a>
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="list">
+                
+            </tbody>
+        </table>
+    </center>
+	<!--Bootstrap-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<!--Scripts-->
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
+
